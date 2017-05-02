@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cakepudding</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy|Monoton|VT323" rel="stylesheet">
+</head>
+<body>
+  <h1 id="title">Cakepudding</h1>
+  <div id="cakepudding"><img src="http://vignette3.wikia.nocookie.net/kirby/images/3/3e/KEY_Cake_sprite.png/revision/latest?cb=20120803163630&path-prefix=en" alt=""></div>
+  <h4>No cakepudding was eaten during this project making!</h4>
+  <form id="cakepudding">
+    <p>Letters Guessed: <h2 id="letters-guessed">ABCD</h2></p>
+    <input type="text" id="letter" maxlength="1" minlength="1" name="letter" placeholder="Guess a Letter">
+    <input id="guess" name="guess" type="submit" value="Guess" />
+    <button id="restart" name="restart" type="button">Restart</button>
+    <div id="cakeslice"><img src="http://rs626.pbsrc.com/albums/tt344/iipancake/strawberrycake.gif~c200" height="50" weight="50">
+      <p id="turns">Turns Left: <p id="life"></p></p>
+      <h1 id="words"></h1>
+    </div>
+
+  </form>
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+
+
+  <script src="app.js"></script>
+
+
+</body>
+</html>

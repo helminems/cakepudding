@@ -1,0 +1,22 @@
+body {
+  background-color: #aafff2
+}
+
+#title {
+  text-align: center;
+  font-family: 'Luckiest Guy', cursive;
+}
+
+#cakepudding{
+  text-align: center;
+}
+#cakeslice{
+  padding: 40px;
+}
+h4 {
+  text-align: center;
+}
+.output {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
